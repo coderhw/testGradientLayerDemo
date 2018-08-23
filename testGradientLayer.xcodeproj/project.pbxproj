@@ -359,7 +359,8 @@
 			baseConfigurationReference = BFAEB30D61A7AFC53024E065 /* Pods-testGradientLayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Shenzhen Yunxun Technology Co., Ltd.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Shenzhen Yunxun Technology Co., Ltd.";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 8UE65W942H;
 				INFOPLIST_FILE = testGradientLayer/Info.plist;
@@ -376,7 +377,8 @@
 			baseConfigurationReference = 1A1DEFC71E9E7963B928BA57 /* Pods-testGradientLayer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Shenzhen Yunxun Technology Co., Ltd.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Shenzhen Yunxun Technology Co., Ltd.";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 8UE65W942H;
 				INFOPLIST_FILE = testGradientLayer/Info.plist;
