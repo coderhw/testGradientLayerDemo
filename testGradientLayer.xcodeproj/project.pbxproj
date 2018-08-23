@@ -147,7 +147,6 @@
 				TargetAttributes = {
 					20BEF9881E78E25B0007340C = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 8UE65W942H;
 						ProvisioningStyle = Manual;
 					};
 				};
@@ -287,7 +286,8 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: China Vanke Co., Ltd.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: China Vanke Co., Ltd.";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -334,7 +334,8 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: China Vanke Co., Ltd.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: China Vanke Co., Ltd.";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -359,16 +360,16 @@
 			baseConfigurationReference = BFAEB30D61A7AFC53024E065 /* Pods-testGradientLayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Shenzhen Yunxun Technology Co., Ltd.";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Shenzhen Yunxun Technology Co., Ltd.";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: China Vanke Co., Ltd.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: China Vanke Co., Ltd.";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 8UE65W942H;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = testGradientLayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.app.testGradientLayer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vanke.xsxt.xsj.gw.debug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "176d6965-5b75-46e5-865c-d6c76664fbba";
-				PROVISIONING_PROFILE_SPECIFIER = byshx;
+				PROVISIONING_PROFILE = "65d2366e-5e56-430c-bdf6-0cb41a4c07da";
+				PROVISIONING_PROFILE_SPECIFIER = xsxtxsjsalesDebug;
 			};
 			name = Debug;
 		};
@@ -377,16 +378,16 @@
 			baseConfigurationReference = 1A1DEFC71E9E7963B928BA57 /* Pods-testGradientLayer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Shenzhen Yunxun Technology Co., Ltd.";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Shenzhen Yunxun Technology Co., Ltd.";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: China Vanke Co., Ltd.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: China Vanke Co., Ltd.";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 8UE65W942H;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = testGradientLayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.app.testGradientLayer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vanke.xsxt.xsj.gw.debug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "176d6965-5b75-46e5-865c-d6c76664fbba";
-				PROVISIONING_PROFILE_SPECIFIER = byshx;
+				PROVISIONING_PROFILE = "65d2366e-5e56-430c-bdf6-0cb41a4c07da";
+				PROVISIONING_PROFILE_SPECIFIER = xsxtxsjsalesDebug;
 			};
 			name = Release;
 		};
