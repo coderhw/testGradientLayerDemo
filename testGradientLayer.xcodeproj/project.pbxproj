@@ -15,9 +15,11 @@
 		20BEF99C1E78E25B0007340C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20BEF99A1E78E25B0007340C /* LaunchScreen.storyboard */; };
 		20BEF9A51E78E32C0007340C /* VKGradientBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BEF9A41E78E32C0007340C /* VKGradientBarView.m */; };
 		64A2F8201E8DEB6700D15256 /* VKPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A2F81F1E8DEB6700D15256 /* VKPathView.m */; };
+		682197F156082FCB8858B5CD /* libPods-testGradientLayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72018375A958A82BA19F8BD3 /* libPods-testGradientLayer.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A1DEFC71E9E7963B928BA57 /* Pods-testGradientLayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testGradientLayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-testGradientLayer/Pods-testGradientLayer.release.xcconfig"; sourceTree = "<group>"; };
 		20BEF9891E78E25B0007340C /* testGradientLayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testGradientLayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20BEF98D1E78E25B0007340C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		20BEF98F1E78E25B0007340C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -32,6 +34,8 @@
 		20BEF9A41E78E32C0007340C /* VKGradientBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKGradientBarView.m; sourceTree = "<group>"; };
 		64A2F81E1E8DEB6700D15256 /* VKPathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKPathView.h; sourceTree = "<group>"; };
 		64A2F81F1E8DEB6700D15256 /* VKPathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKPathView.m; sourceTree = "<group>"; };
+		72018375A958A82BA19F8BD3 /* libPods-testGradientLayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testGradientLayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFAEB30D61A7AFC53024E065 /* Pods-testGradientLayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testGradientLayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testGradientLayer/Pods-testGradientLayer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				682197F156082FCB8858B5CD /* libPods-testGradientLayer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +55,8 @@
 			children = (
 				20BEF98B1E78E25B0007340C /* testGradientLayer */,
 				20BEF98A1E78E25B0007340C /* Products */,
+				7DCCEB3FE8EBF02B4592D2DD /* Pods */,
+				8A7E6C75260C0A3F3B9C0F36 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,6 +96,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		7DCCEB3FE8EBF02B4592D2DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFAEB30D61A7AFC53024E065 /* Pods-testGradientLayer.debug.xcconfig */,
+				1A1DEFC71E9E7963B928BA57 /* Pods-testGradientLayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8A7E6C75260C0A3F3B9C0F36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72018375A958A82BA19F8BD3 /* libPods-testGradientLayer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -96,9 +120,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20BEF9A01E78E25B0007340C /* Build configuration list for PBXNativeTarget "testGradientLayer" */;
 			buildPhases = (
+				DCE80202CEF8A376F0EC66ED /* [CP] Check Pods Manifest.lock */,
 				20BEF9851E78E25B0007340C /* Sources */,
 				20BEF9861E78E25B0007340C /* Frameworks */,
 				20BEF9871E78E25B0007340C /* Resources */,
+				DA6A302E30CEB571D71F5886 /* [CP] Embed Pods Frameworks */,
+				B534E80C04B99D2BE228DB3E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,7 +147,8 @@
 				TargetAttributes = {
 					20BEF9881E78E25B0007340C = {
 						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = 8UE65W942H;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -154,6 +182,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B534E80C04B99D2BE228DB3E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testGradientLayer/Pods-testGradientLayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA6A302E30CEB571D71F5886 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testGradientLayer/Pods-testGradientLayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCE80202CEF8A376F0EC66ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		20BEF9851E78E25B0007340C /* Sources */ = {
@@ -280,23 +356,35 @@
 		};
 		20BEF9A11E78E25B0007340C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFAEB30D61A7AFC53024E065 /* Pods-testGradientLayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 8UE65W942H;
 				INFOPLIST_FILE = testGradientLayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vanke.testGradientLayer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.testGradientLayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "176d6965-5b75-46e5-865c-d6c76664fbba";
+				PROVISIONING_PROFILE_SPECIFIER = byshx;
 			};
 			name = Debug;
 		};
 		20BEF9A21E78E25B0007340C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A1DEFC71E9E7963B928BA57 /* Pods-testGradientLayer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 8UE65W942H;
 				INFOPLIST_FILE = testGradientLayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vanke.testGradientLayer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.testGradientLayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "176d6965-5b75-46e5-865c-d6c76664fbba";
+				PROVISIONING_PROFILE_SPECIFIER = byshx;
 			};
 			name = Release;
 		};
